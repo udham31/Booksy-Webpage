@@ -1,0 +1,89 @@
+body {
+  font-family: Arial, sans-serif;
+  /* margin-top: 20px; */
+  padding: 20px;
+}
+.navbar {
+  background-color: #4caf50;
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+  /* font-size: 5rem; */
+}
+
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 400px;
+  margin: 30px auto;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+img {
+  margin-left: 30px;
+  width: 80%;
+  max-height: 200px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 20px;
+}
+
+h2 {
+  color: #333;
+}
+
+p {
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.buy-now-btn {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.buy-now-btn:hover {
+  background-color: #45a049;
+}
+.card-section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-1 {
+  background-color: #45a049;
+  color: black;
+  font-family: "Merriweather", serif;
+}
+.footer-social-icon {
+  display: flex;
+  justify-content: center;
+}
+.footer-social-icon a {
+  text-decoration: none;
+  /* padding: 10px; */
+  background-color: #45a049;
+  /* margin: 10px; */
+  /* border-radius: 50%; */
+}
+
+.footer-social-icon a {
+  font-size: 2rem;
+  color: black;
+  opacity: 0.9;
+}
+
+.footer-social-icon a :hover {
+  background-color: #ede8e8;
+  transition: 0.5s;
+}
+.footer-social-icon a :hover {
+  color: #45a049;
+  transition: 0.5s;
+}
